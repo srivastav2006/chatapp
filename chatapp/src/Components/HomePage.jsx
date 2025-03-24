@@ -4,11 +4,19 @@ import Qs from "qs";
 import { io } from "socket.io-client";
 import "./HomePage.css";
 import { useAuth } from "../Context/UserAuthContext";
-import q from "../assets/light_svg.svg";
-import s from "../assets/svg.svg";
-import { Tilt } from "react-tilt";
+import q from "../assets/chatlogo.svg";
+import s from "../assets/chatlogo.svg";
+import { useSpring, animated } from '@react-spring/web'
 
 const HomePage = ({ darkMode }) => {
+  
+    const props = useSpring({
+        to: { scale: 1.1, rotateZ: 5 },
+        from: { scale: 1, rotateZ: 0 },
+        config: { tension: 200, friction: 12 },
+        reset: true,
+        reverse: true,
+    })
   const socket = io("wss://reactchat-production-f378.up.railway.app/", {
     transports: ["websocket"],
   });
@@ -28,7 +36,7 @@ const HomePage = ({ darkMode }) => {
     }
   }, [location.search]);
 
-  // Timer function for clock
+  
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
@@ -94,7 +102,7 @@ const HomePage = ({ darkMode }) => {
                 darkMode ? "text-white" : "text-black"
               }`}
             >
-              Your Name/Nick Name
+              Your Name
             </label>
 
             <input
@@ -136,16 +144,15 @@ const HomePage = ({ darkMode }) => {
         </div>
       </div>
 
-      <div className="img w-1/2 flex justify-center items-center" style={{ paddingRight: "3vw" }}>
-        <Tilt options={defaultOptions}>
-          <img
-            className="image-class"
-            src={darkMode ? s : q}
-            alt="svgimage not found"
-            style={{ width: "100%", height: "100%", objectFit: "contain" }}
-          />
-        </Tilt>
-      </div>
+      <div className="w-1/2 flex justify-center items-center pr-[3vw]">
+      <animated.img
+          src={darkMode ? s : q}
+          alt="svg image not found"
+          style={{ ...props, width: "100%", height: "100%", objectFit: "contain" }}
+          onMouseEnter={() => props.scale.start(1.1)}
+          onMouseLeave={() => props.scale.start(1)}
+      />
+  </div>
     </div>
   );
 };

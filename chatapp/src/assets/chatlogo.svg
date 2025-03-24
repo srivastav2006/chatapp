@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="fa35b097-3685-44ff-ba27-4293048c46a6"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="fae22670-c72d-4cd0-8e44-1f0af2c49ea7"  >
+</g>
+<g transform="matrix(1 0 0 1 540.5 540.5)" style="" id="ae64a9f6-f120-42fc-9dcb-5717f43c8d36"  >
+		<text xml:space="preserve" font-family="Raleway" font-size="105" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(217,15,15); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-346.13" y="32.98" >The Chat App</tspan></text>
+</g>
+<g transform="matrix(3.8 0 0 3.8 562.03 736.55)" id="5189414c-be4c-4384-9b3f-6667bbab78ff"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(101,101,101); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-50, -50)" d="M 87.678 73.69 C 87.678 75.42699999999999 87.37899999999999 76.684 86.658 77.344 C 86 78.06299999999999 84.863 78.362 83.245 78.362 L 16.75500000000001 78.362 C 15.55800000000001 78.362 14.539000000000009 78.06299999999999 13.76100000000001 77.344 C 12.801000000000009 76.50399999999999 12.32300000000001 75.30799999999999 12.32300000000001 73.69 L 12.32300000000001 25.949999999999996 C 12.32300000000001 24.810999999999996 12.802000000000008 23.792999999999996 13.70100000000001 22.952999999999996 C 14.65900000000001 22.055999999999997 15.67800000000001 21.636999999999997 16.75500000000001 21.636999999999997 L 83.245 21.636999999999997 C 84.74300000000001 21.636999999999997 85.88000000000001 22.055999999999997 86.599 22.833999999999996 C 87.319 23.673999999999996 87.678 24.690999999999995 87.678 25.949999999999996 L 87.678 73.69 z M 36.462 49.969 L 16.755 30.503 L 16.755 70.036 L 36.462 49.969 z M 80.129 25.831 L 19.931 25.831 L 45.149 51.048 C 47.365 53.265 48.983000000000004 54.402 50.001000000000005 54.402 C 51.078 54.402 52.696000000000005 53.265 54.912000000000006 51.048 L 80.129 25.831 z M 80.01 73.631 L 60.184 53.863 L 56.949 57.037 C 55.092 58.894 52.756 59.853 50.001 59.853 C 47.306 59.853 44.97 58.894 43.113 57.037 L 39.877 53.863 L 20.051 73.631 L 80.01 73.631 z M 83.305 70.036 L 83.305 30.503 L 63.598 49.969 L 83.305 70.036 z" stroke-linecap="round" />
+</g>
+</svg>
